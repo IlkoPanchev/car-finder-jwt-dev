@@ -34,7 +34,7 @@ export async function detailsPage(ctx) {
 
         // const confirmed = await createModal('Are you sure you want to delete this item?');
 
-        const confirmed = confirm('Are you sure you want to delete this item?');
+        const confirmed = confirm('Are you sure you want to delete this offer?');
 
         if (confirmed) {
             await _dataService.deleteRecord(item.id);

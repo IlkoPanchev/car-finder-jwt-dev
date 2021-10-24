@@ -54,7 +54,7 @@ export async function createPage(ctx) {
         }
 
         if (isNaN(year) || Number(year) < 1950) {
-            form.errorMessages.push('Year must be positive number');
+            form.errorMessages.push('Year must be after 1950');
         }
 
         if (price == '') {

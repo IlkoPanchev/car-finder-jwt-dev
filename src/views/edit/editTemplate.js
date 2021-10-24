@@ -6,8 +6,8 @@ export const editTemplate = (item, onSubmit) => html`
             <div class="container">
 
                 <form @submit=${onSubmit} id="edit-form">
-                    <h1>Edit Car Listing</h1>
-                    <p>Please fill in this form to edit an listing.</p>
+                    <h1>Edit Car Offer</h1>
+                    <p>Please fill in this form to edit an offer.</p>
                     <hr>
 
                     <p>Car Brand</p>
@@ -29,7 +29,7 @@ export const editTemplate = (item, onSubmit) => html`
                     <input type="number" placeholder="Enter Car Price" name="price" .value=${item.price} required>
 
                     <hr>
-                    <input type="submit" class="registerbtn" value="Edit Listing">
+                    <input type="submit" class="registerbtn" value="Edit Offer">
                 </form>
             </div>
         </section>`;
